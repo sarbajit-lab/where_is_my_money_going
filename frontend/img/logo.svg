@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="WIMMG - Where Is My Money Going?">
+  <title>WIMMG - Where Is My Money Going?</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#23232b"/><stop offset="1" stop-color="#0a0a0d"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4f5f8"/><stop offset=".55" stop-color="#b9bcc6"/><stop offset="1" stop-color="#8d909c"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe08a"/><stop offset=".5" stop-color="#e3a82c"/><stop offset="1" stop-color="#b57d12"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <rect x="14" y="14" width="484" height="484" rx="104" fill="none" stroke="#e3a82c" stroke-opacity=".35" stroke-width="3"/>
+  <!-- coins that have already gone -->
+  <g fill="#e3a82c">
+    <circle cx="334" cy="414" r="10" fill-opacity=".6"/>
+    <circle cx="372" cy="414" r="8" fill-opacity=".42"/>
+    <circle cx="404" cy="414" r="6" fill-opacity=".26"/>
+    <circle cx="430" cy="414" r="4" fill-opacity=".14"/>
+  </g>
+  <!-- the question mark -->
+  <path d="M182 190 C182 138 218 104 266 104 C318 104 350 138 350 182 C350 222 326 240 300 258 C276 275 262 288 262 322"
+        fill="none" stroke="url(#silver)" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- its dot is a rupee coin -->
+  <circle cx="262" cy="410" r="50" fill="url(#gold)"/>
+  <circle cx="262" cy="410" r="41" fill="none" stroke="#8a5a00" stroke-opacity=".45" stroke-width="3"/>
+  <g fill="none" stroke="#3a2600" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M245 393 H281 M245 405 H281"/>
+    <path d="M247 393 H259 C271 393 277 399 277 406 C277 414 270 419 258 419 H247 L273 435"/>
+  </g>
+</svg>
